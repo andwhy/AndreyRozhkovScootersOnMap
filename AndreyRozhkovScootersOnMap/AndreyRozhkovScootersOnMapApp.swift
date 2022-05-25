@@ -9,9 +9,17 @@ import SwiftUI
 
 @main
 struct AndreyRozhkovScootersOnMapApp: App {
+    
+    let appEnvironment = AppEnvironment()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            VehiclesMapView(model: VehiclesViewModel(environment: VehiclesViewModelEnvironment(
+                vehiclesPublisher: appEnvironment.vehicleService.vehicles,
+                locationAuthStatus: appEnvironment.locationClient.authorisationStatus,
+                userLocation: appEnvironment.locationClient.userLocation,
+                requestLocationAuth: appEnvironment.locationClient.requestAuthorisation)
+            ))
         }
     }
 }

@@ -7,13 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA793A90283D842F00A07521 /* VehiclesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA793A8F283D842F00A07521 /* VehiclesViewModel.swift */; };
+		BA793A94283D894D00A07521 /* MapViewUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA793A93283D894C00A07521 /* MapViewUI.swift */; };
+		BA793A96283E147B00A07521 /* MapViewUICoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA793A95283E147B00A07521 /* MapViewUICoordinator.swift */; };
+		BA793A98283E540800A07521 /* LocationClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA793A97283E540700A07521 /* LocationClient.swift */; };
+		BA793A9A283E54B100A07521 /* VehiclesViewModelEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA793A99283E54B100A07521 /* VehiclesViewModelEnvironment.swift */; };
+		BA793A9D283E5BB700A07521 /* VehiclesServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA793A9C283E5BB700A07521 /* VehiclesServiceMock.swift */; };
+		BA793A9F283E609500A07521 /* LocationClientMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA793A9E283E609500A07521 /* LocationClientMock.swift */; };
+		BA793AA1283E629800A07521 /* Vehicle+MKAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA793AA0283E629800A07521 /* Vehicle+MKAnnotation.swift */; };
+		BA793AA3283E6B9F00A07521 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA793AA2283E6B9F00A07521 /* AppEnvironment.swift */; };
+		BA793AA6283E962500A07521 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA793AA5283E962500A07521 /* ToastView.swift */; };
+		BA793AA9283EA61200A07521 /* VehicleDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA793AA8283EA61200A07521 /* VehicleDetailsView.swift */; };
+		BA793AAB283EBFD400A07521 /* VehicleMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA793AAA283EBFD400A07521 /* VehicleMock.swift */; };
 		BA7990FF283C09BF0060C6E8 /* AndreyRozhkovScootersOnMapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7990FE283C09BF0060C6E8 /* AndreyRozhkovScootersOnMapApp.swift */; };
-		BA799101283C09BF0060C6E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA799100283C09BF0060C6E8 /* ContentView.swift */; };
+		BA799101283C09BF0060C6E8 /* VehiclesMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA799100283C09BF0060C6E8 /* VehiclesMapView.swift */; };
 		BA799103283C09C30060C6E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA799102283C09C30060C6E8 /* Assets.xcassets */; };
 		BA799106283C09C30060C6E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA799105283C09C30060C6E8 /* Preview Assets.xcassets */; };
 		BA799110283C09C30060C6E8 /* AndreyRozhkovScootersOnMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA79910F283C09C30060C6E8 /* AndreyRozhkovScootersOnMapTests.swift */; };
 		BA79911A283C09C40060C6E8 /* AndreyRozhkovScootersOnMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA799119283C09C40060C6E8 /* AndreyRozhkovScootersOnMapUITests.swift */; };
 		BA79911C283C09C40060C6E8 /* AndreyRozhkovScootersOnMapUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA79911B283C09C40060C6E8 /* AndreyRozhkovScootersOnMapUITestsLaunchTests.swift */; };
+		BA79912A283C100B0060C6E8 /* VehiclesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA799129283C100B0060C6E8 /* VehiclesService.swift */; };
+		BA79912D283C12D50060C6E8 /* Vehicles.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA79912C283C12D50060C6E8 /* Vehicles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +48,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA793A8F283D842F00A07521 /* VehiclesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesViewModel.swift; sourceTree = "<group>"; };
+		BA793A93283D894C00A07521 /* MapViewUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewUI.swift; sourceTree = "<group>"; };
+		BA793A95283E147B00A07521 /* MapViewUICoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewUICoordinator.swift; sourceTree = "<group>"; };
+		BA793A97283E540700A07521 /* LocationClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationClient.swift; sourceTree = "<group>"; };
+		BA793A99283E54B100A07521 /* VehiclesViewModelEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesViewModelEnvironment.swift; sourceTree = "<group>"; };
+		BA793A9C283E5BB700A07521 /* VehiclesServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesServiceMock.swift; sourceTree = "<group>"; };
+		BA793A9E283E609500A07521 /* LocationClientMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationClientMock.swift; sourceTree = "<group>"; };
+		BA793AA0283E629800A07521 /* Vehicle+MKAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Vehicle+MKAnnotation.swift"; sourceTree = "<group>"; };
+		BA793AA2283E6B9F00A07521 /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
+		BA793AA5283E962500A07521 /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
+		BA793AA8283EA61200A07521 /* VehicleDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleDetailsView.swift; sourceTree = "<group>"; };
+		BA793AAA283EBFD400A07521 /* VehicleMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleMock.swift; sourceTree = "<group>"; };
 		BA7990FB283C09BF0060C6E8 /* AndreyRozhkovScootersOnMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AndreyRozhkovScootersOnMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA7990FE283C09BF0060C6E8 /* AndreyRozhkovScootersOnMapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndreyRozhkovScootersOnMapApp.swift; sourceTree = "<group>"; };
-		BA799100283C09BF0060C6E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BA799100283C09BF0060C6E8 /* VehiclesMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesMapView.swift; sourceTree = "<group>"; };
 		BA799102283C09C30060C6E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA799105283C09C30060C6E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BA79910B283C09C30060C6E8 /* AndreyRozhkovScootersOnMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AndreyRozhkovScootersOnMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +70,8 @@
 		BA799115283C09C40060C6E8 /* AndreyRozhkovScootersOnMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AndreyRozhkovScootersOnMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA799119283C09C40060C6E8 /* AndreyRozhkovScootersOnMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndreyRozhkovScootersOnMapUITests.swift; sourceTree = "<group>"; };
 		BA79911B283C09C40060C6E8 /* AndreyRozhkovScootersOnMapUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndreyRozhkovScootersOnMapUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BA799129283C100B0060C6E8 /* VehiclesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesService.swift; sourceTree = "<group>"; };
+		BA79912C283C12D50060C6E8 /* Vehicles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +99,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA793A91283D88D300A07521 /* VehiclesMapView */ = {
+			isa = PBXGroup;
+			children = (
+				BA799100283C09BF0060C6E8 /* VehiclesMapView.swift */,
+				BA793A8F283D842F00A07521 /* VehiclesViewModel.swift */,
+				BA793A99283E54B100A07521 /* VehiclesViewModelEnvironment.swift */,
+				BA793A92283D88D300A07521 /* MapViewUI */,
+			);
+			path = VehiclesMapView;
+			sourceTree = "<group>";
+		};
+		BA793A92283D88D300A07521 /* MapViewUI */ = {
+			isa = PBXGroup;
+			children = (
+				BA793A93283D894C00A07521 /* MapViewUI.swift */,
+				BA793A95283E147B00A07521 /* MapViewUICoordinator.swift */,
+			);
+			path = MapViewUI;
+			sourceTree = "<group>";
+		};
+		BA793A9B283E569500A07521 /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				BA799128283C0FF40060C6E8 /* VehiclesClient */,
+				BA793A97283E540700A07521 /* LocationClient.swift */,
+				BA793A9E283E609500A07521 /* LocationClientMock.swift */,
+			);
+			path = Clients;
+			sourceTree = "<group>";
+		};
+		BA793AA4283E961C00A07521 /* SnackView */ = {
+			isa = PBXGroup;
+			children = (
+				BA793AA5283E962500A07521 /* ToastView.swift */,
+			);
+			path = SnackView;
+			sourceTree = "<group>";
+		};
+		BA793AA7283EA60400A07521 /* VehicleDetailsView */ = {
+			isa = PBXGroup;
+			children = (
+				BA793AA8283EA61200A07521 /* VehicleDetailsView.swift */,
+			);
+			path = VehicleDetailsView;
+			sourceTree = "<group>";
+		};
 		BA7990F2283C09BF0060C6E8 = {
 			isa = PBXGroup;
 			children = (
@@ -95,8 +169,13 @@
 			isa = PBXGroup;
 			children = (
 				BA7990FE283C09BF0060C6E8 /* AndreyRozhkovScootersOnMapApp.swift */,
-				BA799100283C09BF0060C6E8 /* ContentView.swift */,
+				BA793AA2283E6B9F00A07521 /* AppEnvironment.swift */,
+				BA793AA7283EA60400A07521 /* VehicleDetailsView */,
+				BA793AA4283E961C00A07521 /* SnackView */,
+				BA793A91283D88D300A07521 /* VehiclesMapView */,
 				BA799102283C09C30060C6E8 /* Assets.xcassets */,
+				BA793A9B283E569500A07521 /* Clients */,
+				BA79912B283C12C80060C6E8 /* Models */,
 				BA799104283C09C30060C6E8 /* Preview Content */,
 			);
 			path = AndreyRozhkovScootersOnMap;
@@ -125,6 +204,25 @@
 				BA79911B283C09C40060C6E8 /* AndreyRozhkovScootersOnMapUITestsLaunchTests.swift */,
 			);
 			path = AndreyRozhkovScootersOnMapUITests;
+			sourceTree = "<group>";
+		};
+		BA799128283C0FF40060C6E8 /* VehiclesClient */ = {
+			isa = PBXGroup;
+			children = (
+				BA799129283C100B0060C6E8 /* VehiclesService.swift */,
+				BA793A9C283E5BB700A07521 /* VehiclesServiceMock.swift */,
+			);
+			path = VehiclesClient;
+			sourceTree = "<group>";
+		};
+		BA79912B283C12C80060C6E8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BA79912C283C12D50060C6E8 /* Vehicles.swift */,
+				BA793AA0283E629800A07521 /* Vehicle+MKAnnotation.swift */,
+				BA793AAA283EBFD400A07521 /* VehicleMock.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +355,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA799101283C09BF0060C6E8 /* ContentView.swift in Sources */,
+				BA793A9A283E54B100A07521 /* VehiclesViewModelEnvironment.swift in Sources */,
+				BA793A94283D894D00A07521 /* MapViewUI.swift in Sources */,
+				BA79912D283C12D50060C6E8 /* Vehicles.swift in Sources */,
+				BA793AA1283E629800A07521 /* Vehicle+MKAnnotation.swift in Sources */,
+				BA793AA9283EA61200A07521 /* VehicleDetailsView.swift in Sources */,
+				BA793A96283E147B00A07521 /* MapViewUICoordinator.swift in Sources */,
+				BA793AAB283EBFD400A07521 /* VehicleMock.swift in Sources */,
+				BA793A9D283E5BB700A07521 /* VehiclesServiceMock.swift in Sources */,
+				BA799101283C09BF0060C6E8 /* VehiclesMapView.swift in Sources */,
+				BA793A9F283E609500A07521 /* LocationClientMock.swift in Sources */,
+				BA793AA3283E6B9F00A07521 /* AppEnvironment.swift in Sources */,
+				BA79912A283C100B0060C6E8 /* VehiclesService.swift in Sources */,
 				BA7990FF283C09BF0060C6E8 /* AndreyRozhkovScootersOnMapApp.swift in Sources */,
+				BA793AA6283E962500A07521 /* ToastView.swift in Sources */,
+				BA793A90283D842F00A07521 /* VehiclesViewModel.swift in Sources */,
+				BA793A98283E540800A07521 /* LocationClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,11 +532,12 @@
 				DEVELOPMENT_TEAM = QBSXFBQ697;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your location will help to find scooters nearby.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -449,11 +562,12 @@
 				DEVELOPMENT_TEAM = QBSXFBQ697;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your location will help to find scooters nearby.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
