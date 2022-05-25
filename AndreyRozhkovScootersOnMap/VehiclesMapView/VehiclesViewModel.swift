@@ -18,8 +18,8 @@ final class VehiclesViewModel: ObservableObject {
     
     @Published var vehicles: [Vehicle] = []
     @Published var locationAuthStatus: CLAuthorizationStatus
-    
     @Published var nearestVehicle: Vehicle?
+    @Published var error: VehicleMapViewError?
     
     public func requestLocationAuth() {
         environment.requestLocationAuth()
@@ -38,8 +38,13 @@ final class VehiclesViewModel: ObservableObject {
     private func listenForVehiclesUpdate() {
         environment.vehiclesPublisher
             .receive(on: DispatchQueue.main)
-            .sink { completion in
-
+            .sink { [weak self] completion in
+                switch completion {
+                case .failure(let error):
+                    self?.error = VehicleMapViewError(serviceError: error)
+                default:
+                    break
+                }
             } receiveValue: { [weak self] vehicles in
                 guard let self = self else { return }
                 self.vehicles = vehicles.data

@@ -12,9 +12,9 @@ class VehiclesServiceMock: ObservableObject {
     
     private let vehiclesMock = Vehicles(data: [Vehicle.mock])
     
-    private let vehiclesSubject = PassthroughSubject<Vehicles, Error>()
+    private let vehiclesSubject = PassthroughSubject<Vehicles, VehicleServiceError>()
     
-    public var vehicles: AnyPublisher<Vehicles, Error> {
+    public var vehicles: AnyPublisher<Vehicles, VehicleServiceError> {
         vehiclesSubject.eraseToAnyPublisher()
     }
     

@@ -15,6 +15,7 @@ struct VehiclesMapView: View {
     @State var vehicles: [Vehicle] = []
     @State var showingSheet = false
     @State var nearesVehicle: Vehicle?
+    @State var showErrorAlert = false
     
     var body: some View {
             MapViewUI(vehicle: vehicles)
@@ -30,6 +31,16 @@ struct VehiclesMapView: View {
             .onReceive(model.$nearestVehicle) { vehicle in
                 nearesVehicle = vehicle
                 showingSheet = vehicle != nil
+            }
+            .onReceive(model.$error) { error in
+                showErrorAlert = error != nil
+            }
+            .alert(isPresented: $showErrorAlert) {
+                Alert(
+                    title: Text("Error"),
+                    message: Text(model.error?.localizedDescription ?? ""),
+                    dismissButton: .default(Text("Ok"))
+                ) // TODO: Add retry feature
             }
             .toast(isShowing: $showingSheet, contentView: {
                     return VehicleDetailView(vehicle: $nearesVehicle)

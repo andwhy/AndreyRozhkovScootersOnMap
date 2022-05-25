@@ -19,6 +19,8 @@
 		BA793AA6283E962500A07521 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA793AA5283E962500A07521 /* ToastView.swift */; };
 		BA793AA9283EA61200A07521 /* VehicleDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA793AA8283EA61200A07521 /* VehicleDetailsView.swift */; };
 		BA793AAB283EBFD400A07521 /* VehicleMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA793AAA283EBFD400A07521 /* VehicleMock.swift */; };
+		BA793AAD283ED4EA00A07521 /* VehicleServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA793AAC283ED4E900A07521 /* VehicleServiceError.swift */; };
+		BA793AAF283ED56800A07521 /* VehicleMapViewError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA793AAE283ED56800A07521 /* VehicleMapViewError.swift */; };
 		BA7990FF283C09BF0060C6E8 /* AndreyRozhkovScootersOnMapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7990FE283C09BF0060C6E8 /* AndreyRozhkovScootersOnMapApp.swift */; };
 		BA799101283C09BF0060C6E8 /* VehiclesMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA799100283C09BF0060C6E8 /* VehiclesMapView.swift */; };
 		BA799103283C09C30060C6E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA799102283C09C30060C6E8 /* Assets.xcassets */; };
@@ -60,6 +62,8 @@
 		BA793AA5283E962500A07521 /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
 		BA793AA8283EA61200A07521 /* VehicleDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleDetailsView.swift; sourceTree = "<group>"; };
 		BA793AAA283EBFD400A07521 /* VehicleMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleMock.swift; sourceTree = "<group>"; };
+		BA793AAC283ED4E900A07521 /* VehicleServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleServiceError.swift; sourceTree = "<group>"; };
+		BA793AAE283ED56800A07521 /* VehicleMapViewError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleMapViewError.swift; sourceTree = "<group>"; };
 		BA7990FB283C09BF0060C6E8 /* AndreyRozhkovScootersOnMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AndreyRozhkovScootersOnMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA7990FE283C09BF0060C6E8 /* AndreyRozhkovScootersOnMapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndreyRozhkovScootersOnMapApp.swift; sourceTree = "<group>"; };
 		BA799100283C09BF0060C6E8 /* VehiclesMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesMapView.swift; sourceTree = "<group>"; };
@@ -105,6 +109,7 @@
 				BA799100283C09BF0060C6E8 /* VehiclesMapView.swift */,
 				BA793A8F283D842F00A07521 /* VehiclesViewModel.swift */,
 				BA793A99283E54B100A07521 /* VehiclesViewModelEnvironment.swift */,
+				BA793AAE283ED56800A07521 /* VehicleMapViewError.swift */,
 				BA793A92283D88D300A07521 /* MapViewUI */,
 			);
 			path = VehiclesMapView;
@@ -122,7 +127,7 @@
 		BA793A9B283E569500A07521 /* Clients */ = {
 			isa = PBXGroup;
 			children = (
-				BA799128283C0FF40060C6E8 /* VehiclesClient */,
+				BA799128283C0FF40060C6E8 /* VehiclesService */,
 				BA793A97283E540700A07521 /* LocationClient.swift */,
 				BA793A9E283E609500A07521 /* LocationClientMock.swift */,
 			);
@@ -206,13 +211,14 @@
 			path = AndreyRozhkovScootersOnMapUITests;
 			sourceTree = "<group>";
 		};
-		BA799128283C0FF40060C6E8 /* VehiclesClient */ = {
+		BA799128283C0FF40060C6E8 /* VehiclesService */ = {
 			isa = PBXGroup;
 			children = (
 				BA799129283C100B0060C6E8 /* VehiclesService.swift */,
 				BA793A9C283E5BB700A07521 /* VehiclesServiceMock.swift */,
+				BA793AAC283ED4E900A07521 /* VehicleServiceError.swift */,
 			);
-			path = VehiclesClient;
+			path = VehiclesService;
 			sourceTree = "<group>";
 		};
 		BA79912B283C12C80060C6E8 /* Models */ = {
@@ -365,10 +371,12 @@
 				BA793A9D283E5BB700A07521 /* VehiclesServiceMock.swift in Sources */,
 				BA799101283C09BF0060C6E8 /* VehiclesMapView.swift in Sources */,
 				BA793A9F283E609500A07521 /* LocationClientMock.swift in Sources */,
+				BA793AAD283ED4EA00A07521 /* VehicleServiceError.swift in Sources */,
 				BA793AA3283E6B9F00A07521 /* AppEnvironment.swift in Sources */,
 				BA79912A283C100B0060C6E8 /* VehiclesService.swift in Sources */,
 				BA7990FF283C09BF0060C6E8 /* AndreyRozhkovScootersOnMapApp.swift in Sources */,
 				BA793AA6283E962500A07521 /* ToastView.swift in Sources */,
+				BA793AAF283ED56800A07521 /* VehicleMapViewError.swift in Sources */,
 				BA793A90283D842F00A07521 /* VehiclesViewModel.swift in Sources */,
 				BA793A98283E540800A07521 /* LocationClient.swift in Sources */,
 			);

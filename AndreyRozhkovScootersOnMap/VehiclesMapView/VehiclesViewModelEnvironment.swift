@@ -10,13 +10,14 @@ import Combine
 import CoreLocation
 
 final class VehiclesViewModelEnvironment: ObservableObject {
-    let vehiclesPublisher: AnyPublisher<Vehicles, Error>
+    
+    let vehiclesPublisher: AnyPublisher<Vehicles, VehicleServiceError>
     @Published var locationAuthStatus: CLAuthorizationStatus // TODO: Wrap it as plain object
     @Published var userLocation: CLLocationCoordinate2D? // TODO: Wrap it as plain object
     let requestLocationAuth: () -> Void
     
     init(
-        vehiclesPublisher: AnyPublisher<Vehicles, Error>,
+        vehiclesPublisher: AnyPublisher<Vehicles, VehicleServiceError>,
         locationAuthStatus: CLAuthorizationStatus,
         userLocation: CLLocationCoordinate2D?,
         requestLocationAuth: @escaping () -> Void
