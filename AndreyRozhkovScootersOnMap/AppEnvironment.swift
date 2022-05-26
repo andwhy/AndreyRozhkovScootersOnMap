@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct AppEnvironment { // TODO: Inject dependencies as a property
+struct AppEnvironment { // TODO: use some builder for init
     public let vehicleService = VehiclesService()
     public let locationClient = LocationClient()
 }

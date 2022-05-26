@@ -151,22 +151,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "996372AD-560C-408F-B559-234169765641"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "AndreyRozhkovScootersOnMap/VehiclesMapView/VehiclesViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50"
-            landmarkName = "listenForVehiclesUpdate()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "9CC4FF50-E16F-42EA-91C0-FF7D4D600B45"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -224,22 +208,6 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "30"
             endingLineNumber = "30"
-            landmarkName = "body"
-            landmarkType = "24">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "94F4254F-E86A-4346-8048-6B70229C0326"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "AndreyRozhkovScootersOnMap/VehiclesMapView/VehiclesMapView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
             landmarkName = "body"
             landmarkType = "24">
          </BreakpointContent>
@@ -354,6 +322,452 @@
             endingLineNumber = "30"
             landmarkName = "startUpdatingLocation()"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DCD7423F-38AC-47C5-8C67-91E316C75B51"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AndreyRozhkovScootersOnMapTests/AndreyRozhkovScootersOnMapTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "testModelVehicles()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DCD7423F-38AC-47C5-8C67-91E316C75B51 - 3cb67c66521fc017"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AndreyRozhkovScootersOnMapTests.AndreyRozhkovScootersOnMapTests.testExample() throws -&gt; ()"
+                  moduleName = "AndreyRozhkovScootersOnMapTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/an.rozhkov/Code/AndreyRozhkovScootersOnMap/AndreyRozhkovScootersOnMapTests/AndreyRozhkovScootersOnMapTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "33">
+               </Location>
+               <Location
+                  uuid = "DCD7423F-38AC-47C5-8C67-91E316C75B51 - 3cb67c66521fc017"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AndreyRozhkovScootersOnMapTests.AndreyRozhkovScootersOnMapTests.testExample() throws -&gt; ()"
+                  moduleName = "AndreyRozhkovScootersOnMapTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/an.rozhkov/Code/AndreyRozhkovScootersOnMap/AndreyRozhkovScootersOnMapTests/AndreyRozhkovScootersOnMapTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "91">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "53DC09C4-EE12-4936-B300-B0C6C21AB09F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AndreyRozhkovScootersOnMapTests/AndreyRozhkovScootersOnMapTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "testModelVehicles()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "53DC09C4-EE12-4936-B300-B0C6C21AB09F - 2e6540123719030e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;AndreyRozhkovScootersOnMap.Vehicle&gt;) -&gt; () in AndreyRozhkovScootersOnMapTests.AndreyRozhkovScootersOnMapTests.testExample() throws -&gt; ()"
+                  moduleName = "AndreyRozhkovScootersOnMapTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/an.rozhkov/Code/AndreyRozhkovScootersOnMap/AndreyRozhkovScootersOnMapTests/AndreyRozhkovScootersOnMapTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "472">
+               </Location>
+               <Location
+                  uuid = "53DC09C4-EE12-4936-B300-B0C6C21AB09F - fb07f123e5b53a40"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;AndreyRozhkovScootersOnMapTests.Vehicle&gt;) -&gt; () in AndreyRozhkovScootersOnMapTests.AndreyRozhkovScootersOnMapTests.testExample() throws -&gt; ()"
+                  moduleName = "AndreyRozhkovScootersOnMapTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/an.rozhkov/Code/AndreyRozhkovScootersOnMap/AndreyRozhkovScootersOnMapTests/AndreyRozhkovScootersOnMapTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "472">
+               </Location>
+               <Location
+                  uuid = "53DC09C4-EE12-4936-B300-B0C6C21AB09F - fb07f123e5b53a21"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;AndreyRozhkovScootersOnMapTests.Vehicle&gt;) -&gt; () in AndreyRozhkovScootersOnMapTests.AndreyRozhkovScootersOnMapTests.testExample() throws -&gt; ()"
+                  moduleName = "AndreyRozhkovScootersOnMapTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/an.rozhkov/Code/AndreyRozhkovScootersOnMap/AndreyRozhkovScootersOnMapTests/AndreyRozhkovScootersOnMapTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "1428">
+               </Location>
+               <Location
+                  uuid = "53DC09C4-EE12-4936-B300-B0C6C21AB09F - fb07f123e5b53de3"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;AndreyRozhkovScootersOnMapTests.Vehicle&gt;) -&gt; () in AndreyRozhkovScootersOnMapTests.AndreyRozhkovScootersOnMapTests.testExample() throws -&gt; ()"
+                  moduleName = "AndreyRozhkovScootersOnMapTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/an.rozhkov/Code/AndreyRozhkovScootersOnMap/AndreyRozhkovScootersOnMapTests/AndreyRozhkovScootersOnMapTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "1228">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "08549E91-811A-437E-8635-C3178016B0AF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AndreyRozhkovScootersOnMap/Clients/VehiclesService/VehiclesServiceMock.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "init()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "125B1B84-03DE-44B3-AC7B-8CDB8AD08BB7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AndreyRozhkovScootersOnMap/Clients/VehiclesService/VehiclesServiceMock.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "init()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "125B1B84-03DE-44B3-AC7B-8CDB8AD08BB7 - 68f795cfa3b5d736"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in AndreyRozhkovScootersOnMap.VehiclesServiceMock.init() -&gt; AndreyRozhkovScootersOnMap.VehiclesServiceMock"
+                  moduleName = "AndreyRozhkovScootersOnMap"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/an.rozhkov/Code/AndreyRozhkovScootersOnMap/AndreyRozhkovScootersOnMap/Clients/VehiclesService/VehiclesServiceMock.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "125B1B84-03DE-44B3-AC7B-8CDB8AD08BB7 - 1bc9e47023ddaf6b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in AndreyRozhkovScootersOnMapTests.VehiclesServiceMock.init() -&gt; AndreyRozhkovScootersOnMapTests.VehiclesServiceMock"
+                  moduleName = "AndreyRozhkovScootersOnMapTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/an.rozhkov/Code/AndreyRozhkovScootersOnMap/AndreyRozhkovScootersOnMap/Clients/VehiclesService/VehiclesServiceMock.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "136">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5B31D7F9-BAC1-4192-A699-65979C84591E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AndreyRozhkovScootersOnMap/Clients/VehiclesService/VehiclesServiceMock.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "init()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "43915183-54DB-4C97-A6F5-F138B732CC7B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AndreyRozhkovScootersOnMap/Clients/VehiclesService/VehiclesService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "fetchData(url:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "564B6219-AA8E-4335-9292-AE18F9BE863D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AndreyRozhkovScootersOnMapTests/AndreyRozhkovScootersOnMapTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "vehiclesViewModel"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FB81EB58-CD1D-435E-9869-A28A741D7619"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AndreyRozhkovScootersOnMap/Models/Vehicles.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "isEqual(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FB81EB58-CD1D-435E-9869-A28A741D7619 - 9d6f1f064faa3f58"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AndreyRozhkovScootersOnMap.Vehicle.isEqual(Swift.Optional&lt;Any&gt;) -&gt; Swift.Bool"
+                  moduleName = "AndreyRozhkovScootersOnMap"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/an.rozhkov/Code/AndreyRozhkovScootersOnMap/AndreyRozhkovScootersOnMap/Models/Vehicles.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "59">
+               </Location>
+               <Location
+                  uuid = "FB81EB58-CD1D-435E-9869-A28A741D7619 - 144ddd681b823668"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AndreyRozhkovScootersOnMapTests.Vehicle.isEqual(Swift.Optional&lt;Any&gt;) -&gt; Swift.Bool"
+                  moduleName = "AndreyRozhkovScootersOnMapTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/an.rozhkov/Code/AndreyRozhkovScootersOnMap/AndreyRozhkovScootersOnMap/Models/Vehicles.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "59">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3A47FEDA-C6DA-4256-ACF7-F283DA7914EA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AndreyRozhkovScootersOnMap/Clients/LocationClientMock.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "requestLocationAuth()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3A47FEDA-C6DA-4256-ACF7-F283DA7914EA - 3d3b64b66697766b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in AndreyRozhkovScootersOnMap.LocationClientMock.requestLocationAuth() -&gt; ()"
+                  moduleName = "AndreyRozhkovScootersOnMap"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/an.rozhkov/Code/AndreyRozhkovScootersOnMap/AndreyRozhkovScootersOnMap/Clients/LocationClientMock.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "46">
+               </Location>
+               <Location
+                  uuid = "3A47FEDA-C6DA-4256-ACF7-F283DA7914EA - ea9c548293b85413"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in AndreyRozhkovScootersOnMapTests.LocationClientMock.requestLocationAuth() -&gt; ()"
+                  moduleName = "AndreyRozhkovScootersOnMapTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/an.rozhkov/Code/AndreyRozhkovScootersOnMap/AndreyRozhkovScootersOnMap/Clients/LocationClientMock.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "46">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A35E056E-C437-402B-A52A-B23F12AAF1D8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AndreyRozhkovScootersOnMap/VehiclesMapView/VehiclesViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "processNearestVehicleUpdate()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1A95E8E6-FFDF-4D52-A5C4-C9BBF4201CE0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AndreyRozhkovScootersOnMap/VehiclesMapView/VehiclesViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "processNearestVehicleUpdate()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1A95E8E6-FFDF-4D52-A5C4-C9BBF4201CE0 - 16416e4da672af7c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;AndreyRozhkovScootersOnMap.Vehicle&gt;, Swift.Optional&lt;__C.CLLocationCoordinate2D&gt;) -&gt; () in AndreyRozhkovScootersOnMap.VehiclesViewModel.processNearestVehicleUpdate() -&gt; ()"
+                  moduleName = "AndreyRozhkovScootersOnMap"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/an.rozhkov/Code/AndreyRozhkovScootersOnMap/AndreyRozhkovScootersOnMap/VehiclesMapView/VehiclesViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "671">
+               </Location>
+               <Location
+                  uuid = "1A95E8E6-FFDF-4D52-A5C4-C9BBF4201CE0 - 16416e4da672af7c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;AndreyRozhkovScootersOnMap.Vehicle&gt;, Swift.Optional&lt;__C.CLLocationCoordinate2D&gt;) -&gt; () in AndreyRozhkovScootersOnMap.VehiclesViewModel.processNearestVehicleUpdate() -&gt; ()"
+                  moduleName = "AndreyRozhkovScootersOnMap"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/an.rozhkov/Code/AndreyRozhkovScootersOnMap/AndreyRozhkovScootersOnMap/VehiclesMapView/VehiclesViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "746">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5AC2F8DD-C0A1-4670-ABD3-A0994E91E876"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AndreyRozhkovScootersOnMap/Clients/LocationClientMock.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "startUpdatingLocation()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5AC2F8DD-C0A1-4670-ABD3-A0994E91E876 - aaafbe0f3f2274e4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in AndreyRozhkovScootersOnMap.LocationClientMock.startUpdatingLocation() -&gt; ()"
+                  moduleName = "AndreyRozhkovScootersOnMap"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/an.rozhkov/Code/AndreyRozhkovScootersOnMap/AndreyRozhkovScootersOnMap/Clients/LocationClientMock.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "46">
+               </Location>
+               <Location
+                  uuid = "5AC2F8DD-C0A1-4670-ABD3-A0994E91E876 - 231be9a12a1943d5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in AndreyRozhkovScootersOnMapTests.LocationClientMock.startUpdatingLocation() -&gt; ()"
+                  moduleName = "AndreyRozhkovScootersOnMapTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/an.rozhkov/Code/AndreyRozhkovScootersOnMap/AndreyRozhkovScootersOnMap/Clients/LocationClientMock.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "46">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

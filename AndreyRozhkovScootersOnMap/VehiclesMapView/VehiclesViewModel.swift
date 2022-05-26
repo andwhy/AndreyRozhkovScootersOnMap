@@ -45,9 +45,9 @@ final class VehiclesViewModel: ObservableObject {
                 default:
                     break
                 }
-            } receiveValue: { [weak self] vehicles in
+            } receiveValue: { [weak self] vehiclesObject in
                 guard let self = self else { return }
-                self.vehicles = vehicles.data
+                self.vehicles = vehiclesObject.data
         }
         .store(in: &cancellables)
     }

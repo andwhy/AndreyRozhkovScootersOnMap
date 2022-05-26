@@ -19,6 +19,9 @@ class VehiclesServiceMock: ObservableObject {
     }
     
     init() {
-        vehiclesSubject.send(vehiclesMock)
+        DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) { [weak self] in
+            guard let self = self else { return }
+            self.vehiclesSubject.send(self.vehiclesMock)
+        }
     }
 }

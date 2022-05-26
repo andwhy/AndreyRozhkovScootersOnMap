@@ -29,6 +29,10 @@ class Vehicle: NSObject, Codable, Identifiable {
         self.id = id
         self.attributes = attributes
     }
+    
+    override func isEqual(_ object: Any?) -> Bool {
+        return id == (object as? Vehicle)?.id
+    }
 }
 
 // MARK: - Attributes

@@ -21,6 +21,15 @@
 		BA793AAB283EBFD400A07521 /* VehicleMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA793AAA283EBFD400A07521 /* VehicleMock.swift */; };
 		BA793AAD283ED4EA00A07521 /* VehicleServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA793AAC283ED4E900A07521 /* VehicleServiceError.swift */; };
 		BA793AAF283ED56800A07521 /* VehicleMapViewError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA793AAE283ED56800A07521 /* VehicleMapViewError.swift */; };
+		BA793AB0283F810800A07521 /* LocationClientMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA793A9E283E609500A07521 /* LocationClientMock.swift */; };
+		BA793AB1283F810D00A07521 /* VehiclesServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA793A9C283E5BB700A07521 /* VehiclesServiceMock.swift */; };
+		BA793AB2283F811600A07521 /* VehicleMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA793AAA283EBFD400A07521 /* VehicleMock.swift */; };
+		BA793AB3283F811600A07521 /* Vehicles.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA79912C283C12D50060C6E8 /* Vehicles.swift */; };
+		BA793AB4283F811600A07521 /* Vehicle+MKAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA793AA0283E629800A07521 /* Vehicle+MKAnnotation.swift */; };
+		BA793AB5283F812200A07521 /* VehiclesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA793A8F283D842F00A07521 /* VehiclesViewModel.swift */; };
+		BA793AB6283F812500A07521 /* VehiclesViewModelEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA793A99283E54B100A07521 /* VehiclesViewModelEnvironment.swift */; };
+		BA793AB7283F812F00A07521 /* VehicleServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA793AAC283ED4E900A07521 /* VehicleServiceError.swift */; };
+		BA793AB8283F816900A07521 /* VehicleMapViewError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA793AAE283ED56800A07521 /* VehicleMapViewError.swift */; };
 		BA7990FF283C09BF0060C6E8 /* AndreyRozhkovScootersOnMapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7990FE283C09BF0060C6E8 /* AndreyRozhkovScootersOnMapApp.swift */; };
 		BA799101283C09BF0060C6E8 /* VehiclesMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA799100283C09BF0060C6E8 /* VehiclesMapView.swift */; };
 		BA799103283C09C30060C6E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA799102283C09C30060C6E8 /* Assets.xcassets */; };
@@ -387,6 +396,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA799110283C09C30060C6E8 /* AndreyRozhkovScootersOnMapTests.swift in Sources */,
+				BA793AB8283F816900A07521 /* VehicleMapViewError.swift in Sources */,
+				BA793AB0283F810800A07521 /* LocationClientMock.swift in Sources */,
+				BA793AB5283F812200A07521 /* VehiclesViewModel.swift in Sources */,
+				BA793AB2283F811600A07521 /* VehicleMock.swift in Sources */,
+				BA793AB4283F811600A07521 /* Vehicle+MKAnnotation.swift in Sources */,
+				BA793AB6283F812500A07521 /* VehiclesViewModelEnvironment.swift in Sources */,
+				BA793AB3283F811600A07521 /* Vehicles.swift in Sources */,
+				BA793AB7283F812F00A07521 /* VehicleServiceError.swift in Sources */,
+				BA793AB1283F810D00A07521 /* VehiclesServiceMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

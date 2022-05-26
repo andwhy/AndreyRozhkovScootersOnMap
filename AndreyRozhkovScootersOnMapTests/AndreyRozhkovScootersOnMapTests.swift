@@ -6,31 +6,43 @@
 //
 
 import XCTest
-@testable import AndreyRozhkovScootersOnMap
+import Combine
 
 class AndreyRozhkovScootersOnMapTests: XCTestCase {
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
+    let expectation = XCTestExpectation()
+    var cancellables = Set<AnyCancellable>()
+    
+    let vehicleServiceMock = VehiclesServiceMock()
+    let locationClientMock = LocationClientMock()
 
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    lazy var vehiclesViewModel = VehiclesViewModel(environment: VehiclesViewModelEnvironment(
+        vehiclesPublisher: vehicleServiceMock.vehicles,
+        locationAuthStatus: locationClientMock.authorisationStatus,
+        userLocation: locationClientMock.userLocation,
+        requestLocationAuth: locationClientMock.requestLocationAuth)
+    )
+    
+    func testModelVehicles() throws {
+        vehiclesViewModel.$vehicles
+            .dropFirst()
+            .eraseToAnyPublisher()
+            .sink { vehicles in
+            XCTAssert(vehicles == [Vehicle.mock])
+            self.expectation.fulfill()
         }
+        .store(in: &cancellables)
+        
+        vehiclesViewModel.$nearestVehicle // TODO: Test distance calculation by passing few models
+            .eraseToAnyPublisher()
+            .filter { $0 != nil }
+            .eraseToAnyPublisher()
+            .sink { nearestVehicle in
+                XCTAssert(nearestVehicle! == Vehicle.mock)
+                self.expectation.fulfill()
+        }
+        .store(in: &cancellables)
+        
+        wait(for: [expectation], timeout: 15)
     }
-
 }
