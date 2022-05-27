@@ -9,7 +9,7 @@ on:
 jobs:
   build-and-test:
 
-    runs-on: macosx12.1
+    runs-on: macos-latest
 
     steps:
     - uses: actions/checkout@v3
@@ -18,4 +18,7 @@ jobs:
       run: sudo xcode-select -switch /Applications/Xcode_13.2.1.app
 
     - name: Buid and run tests
-      run: xcodebuild clean build test -project AndreyRozhkovScootersOnMap.xcodeproj -scheme "AndreyRozhkovScootersOnMap" -destination 'platform=iOS Simulator,name=iPhone 12 Pro,OS=15.2' | xcpretty && exit ${PIPESTATUS[0]}
+      run: xcodebuild clean build test -project AndreyRozhkovScootersOnMap.xcodeproj
+            -scheme AndreyRozhkovScootersOnMap
+            -destination 'platform=iOS Simulator,name=iPhone 12,OS=15.2'
+            | xcpretty && exit ${PIPESTATUS[0]}
